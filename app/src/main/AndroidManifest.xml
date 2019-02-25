@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pros.app.com.pros">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name=".ProsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".launch_screen.LaunchActivity" />
+        <activity android:name=".account.activity.SignInActivity" />
+        <activity android:name=".account.activity.SignUpActivity" />
+        <activity android:name=".home.activity.HomeActivity" />
+        <activity
+            android:name=".home.activity.SplashActivity"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".profile.activity.ProfileActivity" />
+        <activity android:name=".search.activity.SearchActivity" />
+        <activity android:name=".profile.activity.SettingsActivity" />
+        <activity android:name=".profile.activity.FollowingActivity" />
+        <activity android:name=".profile.activity.AthleteProfileActivity" />
+        <activity android:name=".detail.activity.DetailActivity" />
+        <activity android:name=".create_post.activity.PreviewActivity" />
+        <activity
+            android:name=".create_post.activity.CreatePost"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_create_post"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".create_post.activity.CreatePostNew"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_create_post"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".create_question.activity.AskQuestionActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".create_question.activity.TagsActivity" />
+        <activity android:name=".profile.activity.AthleteActivity" />
+        <activity android:name=".profile.activity.ContactListActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Pros</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Create Account</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="email">EMAIL ADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot_pswd">Forgot Password?</string>
+    <string name="sign_up_text">Don\'t have an account? Sign Up</string>
+    <string name="sign_in_text">Already have an account? Sign In</string>
+    <string name="tnc">By creating an account with Pros,\n I accept the Terms and Privacy Policy</string>
+    <string name="enter_email">Please Enter Valid Email</string>
+    <string name="enter_password">Please Enter Valid Password</string>
+    <string name="enter_name">Please Enter Valid Name</string>
+    <string name="sign_up_error">Email has already been taken</string>
+    <string name="sign_in_error">There was a problem signing in to your account. Check your credentials and try again.</string>
+    <string name="forgot_paswd_error_title">Oh oh!</string>
+    <string name="forgot_paswd_error_text">We need your email address.\n\nEnter an email address in the field above, and reset instructions will be sent to your inbox</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="password_reset_text">Your password has been reset. Please check your email for your temporary password.</string>
+    <string name="internal_error">\nSomething has gone wrong</string>
+    <string name="email_error_title">Could Not Send Email</string>
+    <string name="email_error_content">Your device could not send e-mail. Please check e-mail configuration and try again.</string>
+    <string name="deactivate_title">Deactivate Account</string>
+    <string name="deactivate_account_content">None of your content will be accessible by you or any other users while your account is inactive.\n\nAre you sure you would like to deactivate your account?</string>
+    <string name="label_following">Following</string>
+    <string name="label_followers">Followers</string>
+    <string name="label_contact_admin">Contact Pros Admin</string>
+    <string name="label_change_password">Change Password</string>
+    <string name="label_log_out">Log Out</string>
+    <string name="label_deactivate">Deactivate</string>
+    <string name="label_change_pswd">Change Password</string>
+    <string name="label_enter_new_pswd">Enter new password</string>
+    <string name="hint_new_pswd">NEW PASSWORD</string>
+    <string name="hint_re_new_pswd">RE-ENTER PASSWORD</string>
+    <string name="btn_save">SAVE</string>
+    <string name="label_posts">%d\nPosts</string>
+    <string name="label_liked_posts">%d\nLiked Posts</string>
+    <string name="label_questions">%d\nQuestions</string>
+    <string name="label_reactions">%d\nReactions</string>
+    <string name="label_answers">%d\nAnswers</string>
+    <string name="label_liked_questions">%d\nLiked Questions</string>
+    <string name="no_liked_posts">No Liked Posts Yet</string>
+    <string name="no_liked_questions">No Liked Questions Yet</string>
+    <string name="label_search">Search</string>
+    <string name="label_explore">Explore</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_follow">Follow</string>
+    <string name="ask_question">Ask Question</string>
+    <string name="create_post">Create Post</string>
+    <string name="tag_your_friends">Tag Your Friends</string>
+    <string name="create_question_error">Nice try, but this isn\'t a question!</string>
+    <string name="confirm_unfollow">Are you sure you want to unfollow %s?</string>
+    <string name="block_title">Block User</string>
+    <string name="confirm_block">Are you sure you want to block this user?\n\nYou will no longer be able to see their content.</string>
+    <string name="blocked_user">This user has been blocked.\n\nYou will no longer be able to see their content</string>
+    <string name="report_title">Report Offensive Content</string>
+    <string name="report_content">Are you sure you want to report content in this post as abusive and/or offensive?</string>
+    <string name="reported_content">Thank you for keeping our content user friendly.\n\nWe will review this post and take the appropriate action within the next 24 hours.</string>
+    <string name="write_comment">Write A Comment</string>
+    <string name="invite_a_pro">Invite a Pro</string>
+    <string name="invite_text">Invite a fellow athlete to be your teammate on Pros</string>
+    <string name="btn_email">Email</string>
+    <string name="btn_text_msg">Text Message</string>
+    <string name="btn_contacts">From contacts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Fb credentials -->
+    <string name="facebook_app_id">285428862194908</string>
+    <string name="fb_login_protocol_scheme">fb285428862194908</string>
+
+    <string name="title_activity_create_post">CreatePost</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="content_type">
+        <item>Posts</item>
+        <item>Reactions</item>
+        <item>Answers</item>
+        <item>Questions</item>
+    </string-array>
+
+
+</resources>

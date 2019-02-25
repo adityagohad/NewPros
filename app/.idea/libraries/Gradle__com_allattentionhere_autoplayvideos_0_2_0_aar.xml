@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.allattentionhere:autoplayvideos:0.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/autoplayvideos-0.2.0.aar/944e4724900dd38533290368299dabcd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/autoplayvideos-0.2.0.aar/944e4724900dd38533290368299dabcd/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.allattentionhere/autoplayvideos/0.2.0/59a43e42b084277185a95b3d3f355dde1dd7f495/autoplayvideos-0.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

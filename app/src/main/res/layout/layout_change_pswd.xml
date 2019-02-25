@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_32"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_change_pswd"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_24"
+        android:layout_marginTop="@dimen/dp_20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_enter_new_pswd"
+        android:gravity="center"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edtNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:gravity="center"
+        android:hint="@string/hint_new_pswd"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="@dimen/sp_14" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edtRePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:gravity="center"
+        android:hint="@string/hint_re_new_pswd"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/tvSave"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginTop="@dimen/dp_18"
+        android:layout_marginLeft="@dimen/dp_32"
+        android:layout_marginRight="@dimen/dp_32"
+        android:background="@drawable/bg_green"
+        android:gravity="center"
+        android:text="@string/btn_save"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+</LinearLayout>

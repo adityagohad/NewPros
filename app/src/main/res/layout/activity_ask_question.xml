@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".create_question.activity.AskQuestionActivity">
+
+
+    <TextView
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:padding="18dp"
+        android:textSize="@dimen/sp_14"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/post_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:padding="18dp"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/green"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <TextView
+        android:id="@+id/ask_question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASK A QUESTION"
+        android:padding="18dp"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/gray" />
+
+
+    <View
+        android:id="@+id/seperator_top"
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/gray"
+        app:layout_constraintTop_toBottomOf="@+id/ask_question_title"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:src="@drawable/profile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seperator_top"
+        android:layout_marginTop="@dimen/dp_16" />
+
+
+    <EditText
+        android:id="@+id/question_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/seperator_top"
+        android:layout_marginBottom="24dp"
+        android:paddingTop="24dp"
+        android:layout_marginLeft="72dp"
+        android:background="@android:color/transparent" />
+
+
+    <ImageView
+        android:id="@+id/tags_iv"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/com_facebook_profile_picture_blank_square"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/tags_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/dp_8"
+        app:layout_constraintLeft_toRightOf="@id/tags_iv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_marginBottom="32dp" />
+
+
+    <TextView
+        android:id="@+id/athletes_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/dp_8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="@dimen/dp_24" />
+
+    <View
+        android:id="@+id/seperator_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toTopOf="@id/tags_iv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16" />
+
+
+</android.support.constraint.ConstraintLayout>

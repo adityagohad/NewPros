@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/athlete_row"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_64"
+    android:paddingLeft="@dimen/dp_16"
+    android:background="@color/dark_gray">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/circle"
+        android:src="@drawable/profile"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14"
+        tools:text="Ryan Palmer"
+        android:textAlignment="center"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_marginLeft="@dimen/dp_12" />
+
+</RelativeLayout>
