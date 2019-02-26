@@ -138,7 +138,8 @@ public class CreatePostPresenter implements HttpServiceView {
 
                 FlipApi apiInstance = new FlipApi();
 
-                String factoryId = "7f51a0d5f55a87b755ac189e865735b7";
+                //String factoryId = "7f51a0d5f55a87b755ac189e865735b7";
+                String factoryId = "6eea7df458e411fa9412593a196689e1";
 
                 // Upload video
                 HashMap<String, ArrayList<String>> extraFiles = new HashMap<String, ArrayList<String>>();
